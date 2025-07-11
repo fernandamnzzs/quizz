@@ -1,0 +1,83 @@
+/* Fonte fofa (Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap');
+
+body {
+  font-family: 'Comfortaa', cursive;
+  background-color: #ffeef5;
+  color: #4a2c5a;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  background-color: #fff0f6;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  color: #d94f8d;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #7a3e66;
+  margin-bottom: 20px;
+}
+
+.question {
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.question h3 {
+  margin-bottom: 10px;
+  color: #b34d80;
+}
+
+label {
+  display: block;
+  background-color: #ffe6ec;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+label:hover {
+  background-color: #ffd6e0;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+button {
+  background-color: #ff8fab;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff6f91;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #d94f8d;
+}
